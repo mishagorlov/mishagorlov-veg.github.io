@@ -1,0 +1,124 @@
+body {
+  font-family: "Roboto Slab", serif;
+  margin: 0;
+  padding: 0;
+  font-size: 16px; }
+
+h1, h2, h3, h4, h5 {
+  font-weight: 700; }
+
+h1 {
+  font-size: 48px;
+  font-weight: 700; }
+
+h2 {
+  font-size: 36px; }
+
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0; }
+
+hr {
+  margin: 0; }
+
+.header {
+  height: 100px; }
+
+.background__visible {
+  background-image: url(../img/bg-image.jpg);
+  background-size: cover; }
+
+.logo {
+  margin-top: 25px;
+  width: auto;
+  height: 40px;
+  display: block; }
+
+.menu {
+  margin-top: 32px;
+  padding-left: 40px; }
+
+.menu a {
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 400; }
+
+.menu a:hover {
+  font-weight: 700; }
+
+.main__menu {
+  margin: 0;
+  padding-right: 15px;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
+
+.main__head {
+  margin-top: 160px;
+  color: #ffffff;
+  text-align: center; }
+
+.main__text {
+  margin-top: 80px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 29px; }
+
+.rect__btn {
+  width: 45%;
+  height: auto;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FDAC56), to(#CC7F2E));
+  background: -webkit-linear-gradient(top, #FDAC56 0%, #CC7F2E 100%);
+  background: -o-linear-gradient(top, #FDAC56 0%, #CC7F2E 100%);
+  background: linear-gradient(180deg, #FDAC56 0%, #CC7F2E 100%);
+  -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.45);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.45);
+  border-radius: 45px;
+  margin: 40px 0; }
+
+.btn__text {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+  margin: 15px 0; }
+
+.arrow {
+  padding-top: 40px;
+  padding-bottom: 100px; }
+
+.arrow__down {
+  width: 35px;
+  height: 35px; }
+
+@media screen and (max-width: 992px) {
+  .menu__line {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .line__logo {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .main__menu {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .menu {
+    padding-left: 20px;
+    padding-right: 20px; } }
+
+@media screen and (max-width: 450px) {
+  .main__menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 40px; }
+  .menu {
+    margin: 0 auto; } }

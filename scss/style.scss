@@ -1,0 +1,118 @@
+$fontFamily: 'Roboto Slab', serif;
+$fontColor: #ffffff;
+$fontSize: 16px;
+
+body {
+  font-family: $fontFamily;
+  margin: 0;
+  padding: 0;
+  font-size: $fontSize;
+}
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 36px;
+}
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+hr {
+  margin: 0;
+}
+.header {
+  height: 100px;
+}
+.background__visible {
+  background-image: url(../img/bg-image.jpg);
+  background-size: cover;
+}
+.logo {
+  margin-top: 25px;
+  width: auto;
+  height: 40px;
+  display: block;
+}
+.menu {
+  margin-top: 32px;
+  padding-left: 40px;
+}
+.menu a {
+  font-size: $fontSize;
+  color: $fontColor;
+  text-decoration: none;
+  font-weight: 400;
+}
+.menu a:hover {
+  font-weight: 700;
+}
+.main__menu {
+  margin: 0;
+  padding-right: 15px;
+  justify-content: flex-end;
+}
+//Main screen
+.main__head {
+  margin-top: 160px;
+  color: $fontColor;
+  text-align: center;
+}
+.main__text {
+  margin-top: 80px;
+  color: $fontColor;
+  text-align: center;
+  line-height: 29px;
+}
+.rect__btn {
+  width: 45%;
+  height: auto;
+  background: linear-gradient(180deg, #FDAC56 0%, #CC7F2E 100%);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.45);
+  border-radius: 45px;
+  margin: 40px 0;
+}
+.btn__text {
+  color: $fontColor;
+  text-align: center;
+  font-weight: 700;
+  margin: 15px 0;
+}
+.arrow {
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+.arrow__down {
+  width: 35px;
+  height: 35px;
+}
+@media screen and (max-width: 992px) {
+  .menu__line {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .line__logo {
+    justify-content: center;
+  }
+  .main__menu {
+    justify-content: center;
+  }
+  .menu {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .main__menu {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .menu {
+    margin: 0 auto;
+  }
+}
